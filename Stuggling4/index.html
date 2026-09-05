@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .container{
+            background-color: #f0db686f;
+            color: #790000;
+          }
+          .gender{
+            background-color: #efd289;
+            color: #2660f3;
+          }
+          .submit{
+            background-color: #e1bc5f;
+          }
+          *{
+            margin:0;
+            padding:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Forms for JEE</h1>
+        <form action="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="gender">
+                <label for="gender">Gender:</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
